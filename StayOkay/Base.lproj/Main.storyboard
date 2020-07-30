@@ -304,12 +304,22 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Support and contribute to mental health orgainizations! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bux-cq-Qf0">
-                                <rect key="frame" x="256" y="614" width="100" height="95"/>
+                                <rect key="frame" x="256" y="614" width="115" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
                                 <color key="textColor" red="0.97146247730000002" green="1" blue="0.99941482660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="studentdesk" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="VFn-ZB-byO">
+                                <rect key="frame" x="83" y="723" width="63" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.97146247730000002" green="1" blue="0.99941482660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dollarsign.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0hg-gD-EoR">
+                                <rect key="frame" x="270" y="729" width="74" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.97146247730000002" green="1" blue="0.99941482660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.79097846510000003" green="0.89383775009999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3Id-dB-6E4"/>
@@ -375,9 +385,11 @@
     <resources>
         <image name="278-2783744_png-transparent-stock-glowing-clipartblack-com-tools-lightbulb" width="920" height="973"/>
         <image name="IMG_9128" width="1125" height="1814"/>
+        <image name="dollarsign.square" catalog="system" width="128" height="114"/>
         <image name="ffffff-1280x1024" width="1280" height="1024"/>
-        <image name="first" width="30" height="30"/>
+        <image name="first" width="29" height="26"/>
         <image name="inspirational-black-and-white-quotes-boostupliving-positive-quotes-white-background" width="546" height="378"/>
-        <image name="second" width="30" height="30"/>
+        <image name="second" width="29" height="28"/>
+        <image name="studentdesk" catalog="system" width="124" height="128"/>
     </resources>
 </document>

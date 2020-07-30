@@ -234,16 +234,25 @@
                                 <rect key="frame" x="43" y="220" width="351" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Post #1"/>
+                                <connections>
+                                    <action selector="linkClicked:" destination="mzd-h6-Ngy" eventType="touchUpInside" id="YP2-RI-lTP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ol-iW-vNq">
                                 <rect key="frame" x="43" y="307" width="351" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Post #2"/>
+                                <connections>
+                                    <action selector="linkClicked2:" destination="mzd-h6-Ngy" eventType="touchUpInside" id="10y-8V-6sX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9L1-my-FHQ">
                                 <rect key="frame" x="43" y="379" width="313" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Post #3"/>
+                                <connections>
+                                    <action selector="linkClicked3:" destination="mzd-h6-Ngy" eventType="touchUpInside" id="ihj-bh-Ind"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8O2-Z3-9o8">
                                 <rect key="frame" x="-10" y="529" width="424" height="284"/>

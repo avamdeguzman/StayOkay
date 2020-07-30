@@ -42,10 +42,6 @@
                                     <segue destination="XVJ-34-LHD" kind="show" id="kM4-wj-Zgz"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CCd-TC-bmR">
-                                <rect key="frame" x="20" y="81" width="374" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HL7-y8-ULy">
                                 <rect key="frame" x="58" y="747" width="299" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -57,11 +53,21 @@
                                     <segue destination="OJ8-a5-Whk" kind="show" id="uFg-E2-BmU"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glC-Nl-nGj">
+                                <rect key="frame" x="20" y="83" width="374" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.79097846512264902" green="0.89383775014326561" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="label" destination="glC-Nl-nGj" id="mZf-OM-z8b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -277,11 +283,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCs-Jh-Y9k">
                                 <rect key="frame" x="43" y="557" width="143" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="22"/>
                                 <state key="normal" title="LEARN">
                                     <color key="titleColor" red="0.97146247730000002" green="1" blue="0.99941482660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="learnClicked:" destination="mzd-h6-Ngy" eventType="touchUpInside" id="ZNw-XX-foR"/>
                                     <segue destination="Vah-FN-7iG" kind="show" id="Eii-Js-DSS"/>
                                 </connections>
                             </button>
@@ -293,6 +300,7 @@
                                     <color key="titleColor" red="0.97146247730000002" green="1" blue="0.99941482660000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="donateClicked:" destination="mzd-h6-Ngy" eventType="touchUpInside" id="ReW-ia-HxX"/>
                                     <segue destination="htD-WQ-Vpc" kind="show" id="qZw-qP-w9N"/>
                                 </connections>
                             </button>

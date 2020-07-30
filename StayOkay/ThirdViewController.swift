@@ -22,7 +22,17 @@ class ThirdViewController: UIViewController {
     @IBAction func linkClicked3(_ sender: Any) {
    openUrl(urlStr: "https://techerati.com/features-hub/opinions/technologys-role-in-improving-mental-health/")
         
+  
     }
+    
+    @IBAction func learnClicked(_ sender: Any) {
+   openUrl(urlStr: "https://www.apa.org/")
+    }
+    
+    @IBAction func donateClicked(_ sender: Any) {
+   openUrl(urlStr: "https://www.charitynavigator.org/index.cfm?bay=content.view&cpid=4883")
+    }
+    
     
     func openUrl(urlStr:String!) {
 

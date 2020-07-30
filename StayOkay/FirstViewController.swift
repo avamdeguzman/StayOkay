@@ -7,14 +7,23 @@
 //
 
 import UIKit
+import Foundation
 
 class FirstViewController: UIViewController {
+ 
+    @IBOutlet weak var label: UILabel!
+    
+override func viewDidLoad() {
+    super.viewDidLoad()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    label.text =
+    
+        DateFormatter.localizedString (from: NSDate() as Date, dateStyle : DateFormatter.Style.medium, timeStyle : DateFormatter.Style.short)
     }
 
-
+    override
+    func didReceiveMemoryWarning(){()
+        super.didReceiveMemoryWarning()
+    }
 }
 
